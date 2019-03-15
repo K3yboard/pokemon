@@ -1,0 +1,39 @@
+@charset 'UTF-8';
+
+/// Retorna a cor correspondente ao "tipo" especificada no mapa `$colors`
+///
+/// @group   Tools
+/// @require {variable} $colors
+///
+/// @return  {color} - Cor atribuida no mapa
+///
+/// @param   {string} $color - Chave (nome) generica da cor desejada
+///
+/// @example scss - Uso
+///   .element {
+///     background: color(primary, light);
+///     color: color(primary, light);
+///   }
+///
+/// @example scss - Compilado
+///   .element {
+///     background: #000;
+///     color: #f0f;
+///   }
+@function setColor($color, $variant: null) {
+  @if map-has-key($colors-config, $color) {
+    $type: map-get($colors-config, $color);
+  
+    @if $variant == null {
+      @if type-of($type) == map {
+        @return map-get(map-get($colors-config, $color), 'base');
+      } @else {
+        @return map-get($colors-config, $color);
+      }  
+    } @else {
+      @return map-get(map-get($colors-config, $color), $variant); 
+    }
+  } @else {
+    @warn 'A chave "#{$color}" não existe. Verifique se ela foi definida no mpapa "$colors-config"!';
+  }
+}

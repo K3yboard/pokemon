@@ -1,0 +1,13 @@
+@charset 'UTF-8';
+
+@mixin icon-button($name, $size: 20px, $color: setColor(main, c1)) {
+  @extend %hide-text;
+  @include icon($name);
+
+  cursor: pointer;
+
+  &:before {
+    font-size: $size;
+    color: $color;
+  }
+}

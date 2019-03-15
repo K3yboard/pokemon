@@ -1,0 +1,32 @@
+@charset 'UTF-8';
+
+@mixin icon($name, $icn-color: setColor(main, c1), $position: 'before') {
+  @if($position != 'after') {
+    &:before {
+      @extend %icon-config;
+      @extend %icon-#{$name};
+
+      color: $icn-color;
+    }
+  }
+  @else {
+    &:after {
+      @extend %icon-config;
+      @extend %icon-#{$name};
+
+      color: $icn-color;
+    }
+  }
+}
+
+%icon-config {
+  font-family: "icons" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

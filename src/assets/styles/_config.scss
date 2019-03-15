@@ -1,0 +1,32 @@
+@charset 'UTF-8';
+// Fontes disponíveis
+
+$font-fallback: 'Verdana', sans-serif;
+$font-base: 'Ubuntu', $font-fallback;
+
+$border-radius: 4px;
+$border-default: 1px solid #DFDFDF;
+
+$colors-config: (
+  main: (
+    c1: #e71515,
+    c2: #494949,
+    c3: #e7e719,
+
+  ),
+  secondary: (
+    c1: #7959BF,
+    c2: #0078A7,
+    c3: #FFC465,
+
+  ),
+  gray: (
+    c1: #FAFAFA,
+    c2: #c9c9c7,
+    c3: #3b3b3b
+  ),
+  pokemon: (
+    blue: #62e8ff,
+    blue-dark: #2192f8
+  )
+) !default;

@@ -1,0 +1,63 @@
+@charset 'UTF-8';
+
+/* font converted using font-converter.net */
+
+@font-face {
+  font-family: "icons";
+  src: url('../fonts/icon/icons.eot');
+  src: url('../fonts/icon/icons.eot?#iefix') format("embedded-opentype"),
+    url('../fonts/icon/icons.woff') format('woff'),
+    url('../fonts/icon/icons.woff2') format('woff2'),
+    url('../fonts/icon/icons.ttf') format('truetype'),
+    url('../fonts/icon/icons.svg#icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "OpenSans-Regular";
+  src: url("../fonts/regular/OpenSans-Regular.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/regular/OpenSans-Regular.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../fonts/regular/OpenSans-Regular.svg") format("svg"), /* Legacy iOS */
+    url("../fonts/regular/OpenSans-Regular.ttf") format("ttf"),
+    url("../fonts/regular/OpenSans-Regular.woff") format("woff"), /* Modern Browsers */
+    url("../fonts/regular/OpenSans-Regular.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "OpenSans-SemiBold";
+  src: url("../fonts/semi-bold/OpenSans-SemiBold.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/semi-bold/OpenSans-SemiBold.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../fonts/semi-bold/OpenSans-SemiBold.svg") format("svg"), /* Legacy iOS */
+    url("../fonts/semi-bold/OpenSans-SemiBold.ttf") format("ttf"),
+    url("../fonts/semi-bold/OpenSans-SemiBold.woff") format("woff"), /* Modern Browsers */
+    url("../fonts/semi-bold/OpenSans-SemiBold.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "OpenSans-Light";
+  src: url("../fonts/light/OpenSans-Light.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/light/OpenSans-Light.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../fonts/light/OpenSans-Light.svg") format("svg"), /* Legacy iOS */
+    url("../fonts/light/OpenSans-Light.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("../fonts/light/OpenSans-Light.woff") format("woff"), /* Modern Browsers */
+    url("../fonts/light/OpenSans-Light.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "OpenSans-Bold";
+  src: url("../fonts/bold/OpenSans-Bold.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/bold/OpenSans-Bold.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../fonts/bold/OpenSans-Bold.svg") format("svg"), /* Legacy iOS */
+    url("../fonts/bold/OpenSans-Bold.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("../fonts/bold/OpenSans-Bold.woff") format("woff"), /* Modern Browsers */
+    url("../fonts/bold/OpenSans-Bold.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}

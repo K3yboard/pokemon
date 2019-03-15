@@ -1,0 +1,29 @@
+@charset 'UTF-8';
+
+// https://sass-guidelin.es/#architecture
+
+// abstracts
+@import './config';
+@import './tools/functions/get-maps';
+@import './tools/functions/color';
+@import './abstracts/icons';
+@import './tools/mixins/linear-gradient';
+@import './abstracts/placeholders';
+
+// vendors
+@import './vendors/primeface/primefaces-ng';
+
+// base
+@import './base/reset';
+@import './base/base';
+@import './base/typography';
+@import './base/wrapper';
+
+// layout
+@import './layout/containers';
+
+// components
+@import './components/card';
+
+// pages
+@import './pages/home';
