@@ -1,0 +1,59 @@
+@charset 'UTF-8';
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: $font-base;
+  color: setColor(gray, c3);
+  font-size: 16px;
+}
+
+a {
+  cursor: pointer;
+}
+
+strong {
+  font-weight: bold;
+}
+
+img {
+  max-width: 100%;
+}
+
+input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #a1a1a1;
+}
+input::-moz-placeholder { /* Firefox 19+ */
+  color: #a1a1a1;
+}
+input:-ms-input-placeholder { /* IE 10+ */
+  color: #a1a1a1;
+}
+input:-moz-placeholder { /* Firefox 18- */
+  color: #a1a1a1;
+}
+input::placeholder {
+  color: #a1a1a1;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: setColor(gray, c3);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: setColor(gray, c2);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: setColor(main, c2);
+}

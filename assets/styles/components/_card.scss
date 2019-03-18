@@ -1,0 +1,33 @@
+@charset 'UTF-8';
+
+.card {
+  position: relative;
+  display: flex;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 1px 1px 2px 1px rgba(#000, 0.4);
+
+  .card-header {
+    flex: 1;
+    max-width: 140px;
+    padding: 10px;
+
+    img {
+      max-height: 140px;
+      border-radius: 50%;
+      box-shadow: 3px 3px 11px 2px rgba(#000, 0.4);
+      transition: .5s;
+
+      &:hover {
+        transform: rotate3d(0, 1, 0, 180deg);
+      }
+    }
+  }
+
+  .card-body {
+    position: relative;
+    flex: 2;
+    padding: 10px;
+  }
+}
