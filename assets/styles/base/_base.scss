@@ -5,7 +5,13 @@ html {
 }
 
 body {
+  $bg-1: rgba(#24CCAA, 0.4);
+  $bg-2: rgba(#A2DB95, 0.4);
+
   font-family: $font-base;
+  background: #f1f1f1;
+  background: linear-gradient(to right, $bg-1 , $bg-2);
+  opacity: .9;
   color: setColor(gray, c3);
   font-size: 16px;
 }
