@@ -11,4 +11,5 @@ export class CardPokestopComponent implements OnInit {
   ngOnInit() {
   }
 
+
 }
