@@ -1,11 +1,11 @@
 {
   "name": "pokemon",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-    "build-prod": "ng build --prod --base-href https://k3yboard.github.io/pokemon/",
+    "build-prod": "ng build --prod --base-href https://panjos.github.io/pokemon/",
     "publish": "npx ngh --dir=dist/pokemon",
     "test": "ng test",
     "lint": "ng lint",
